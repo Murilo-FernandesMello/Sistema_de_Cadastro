@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bone"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/green"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="Cadastro de Usuários"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtDesc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo2"
+        android:layout_marginTop="90dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="   Preencha os dados abaixo:"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDesc2"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="27dp"
+        android:fontFamily="serif"
+        android:hint="Nome"
+        android:paddingLeft="10dp"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edNome"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="27dp"
+        android:fontFamily="serif"
+        android:hint="Endereço"
+        android:paddingLeft="10dp"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edEndereco"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="27dp"
+        android:fontFamily="serif"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edTel"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/btCadastrar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:backgroundTint="@color/green"
+            android:text="Cadastrar"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/btCancelar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:backgroundTint="@color/green"
+            android:text="Cancelar"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

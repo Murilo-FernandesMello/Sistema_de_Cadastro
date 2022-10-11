@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bone"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/green"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="Listagem de Usuários"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/Anterior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo3"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="27dp"
+        android:backgroundTint="@color/green"
+        android:text="Anteriror"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Proximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Anterior"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="27dp"
+        android:backgroundTint="@color/green"
+        android:text="Próximo"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/Fechar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Proximo"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="27dp"
+        android:backgroundTint="@color/green"
+        android:text="Fechar"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo3"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="27sp"
+        android:text="Nome: "
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtNome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo3"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="65sp"
+        android:text="[Nome] "
+        android:textColor="@color/green"
+        android:textSize="27sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNome3"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Endereço: "
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtEndereco3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNome3"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="60dp"
+        android:text="[Endereço] "
+        android:textColor="@color/green"
+        android:textSize="27sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEndereco3"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Telefone "
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtTelefone3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEndereco3"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="60dp"
+        android:text="[Telefone] "
+        android:textColor="@color/green"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/txtStatus3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo3"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="27sp"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+
+</RelativeLayout>
